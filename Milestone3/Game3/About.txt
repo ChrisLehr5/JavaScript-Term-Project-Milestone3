@@ -1,0 +1,15 @@
+Purpose:
+This game is a classic lights out game.
+You select the box to turn the light "on" and "off". When all the lights are on
+you have won!
+ 
+Issues:
+No turn counter to see how many clicks taken. 
+No OnWin function added.  
+
+Future Releases:
+Adding in the missing elements to make an expanded display. 
+
+Copyright & Reproduction Information:
+Open source. Reproduction allowed, expansion encouraged. 
+

@@ -1,0 +1,95 @@
+body {
+    font-family: 'Righteous', cursive;
+    background-color: #2f4f4f;
+}
+
+#main {
+    width: 640px;
+    margin: 40px auto;
+}
+
+#canvas {
+    width: 640px;
+    height: 640px;
+    border: 5px solid #222;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.inner {
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#menu {
+    font-size: 30px;
+}
+
+p {
+    color: white;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e30b5d, 0 0 40px #e30b5d, 0 0 50px #e30b5d, 0 0 60px #e30b5d, 0 0 70px #e30b5d;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #b6094a, 0 0 40px #b6094a, 0 0 50px #b6094a, 0 0 60px #b6094a, 0 0 70px #b6094a, 0 0 80px #b6094a;
+    }
+}

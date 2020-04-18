@@ -1,0 +1,15 @@
+Purpose:
+This game is a Where's Waldo search game.
+You use the mouse as a magnifying glass to search the image
+for the listed items. 
+
+Issues:
+Only one page to search, and the mouse has no click abilities. You have
+to manually fill out the checkboxes.  
+
+Future Releases:
+Adding more to search for, and on Onclick event.
+
+Copyright & Reproduction Information:
+Open source. Reproduction allowed, expansion encouraged. 
+

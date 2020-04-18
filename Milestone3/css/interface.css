@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    background-color: #79545a;
+    margin: 0px;
+    width: 50%;
+    text-align: center;
+}
+
+#break {
+    background-color: #7c4848;
+    height: 30px;
+}
+
+.console {
+    background-color: brown;
+    width: 50%;
+    color: white;
+}
+
+footer {
+    text-align: left;
+}
+
+a:active {
+    color: yellow;
+}

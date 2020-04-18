@@ -1,0 +1,14 @@
+Purpose:
+This game is a drag and drop game. 
+You drag the images around to create a scene. There is an audio player to play
+music while you create your scene. 
+
+Issues:
+The game is pretty basic and has no story. 
+
+Future Releases:
+Creating additional pages to the scene to flesh out.  
+
+Copyright & Reproduction Information:
+Open source. Reproduction allowed, expansion encouraged. 
+
